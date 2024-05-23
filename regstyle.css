@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url('./pic.jpg') no-repeat;
+    background-size: cover;
+}
+.login{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.login h1{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.login label{
+    font-size: 22px;
+    margin: 0px ;
+   
+
+}
+.abc p{
+    font-size: 22px;
+
+}
+
+.login input{
+    font-size: 15px;
+    width: 70%;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 7px;
+
+}
+.login button{
+    font-size: 20px;
+    margin: 15px 70px;
+    padding: 5px 15px;
+    border-radius: 7px;
+    border: 0;
+}
